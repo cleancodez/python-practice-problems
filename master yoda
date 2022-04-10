@@ -1,0 +1,4 @@
+def master_yoda(text):
+    wordlist = text.lower().split()
+    reverse_wordlist = ' '.join(wordlist[::-1])
+    return reverse_wordlist
