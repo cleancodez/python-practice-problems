@@ -1,0 +1,10 @@
+def area(radius):
+    return 3.14 * radius * radius
+
+def vol(area,length):
+    print(area*length)
+
+area = int(input("enter the radius of your circle: "))
+length = int(input("enter the length of your circle: "))
+
+vol(area(radius), length)
