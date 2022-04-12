@@ -1,0 +1,11 @@
+def mrHoliday(sentence):
+    d = {'lower':0, 'upper':0}
+    for letter in sentence:
+        if letter.isupper():
+            d['upper'] += 1
+        elif letter.lower():
+            d['lower'] += 1
+        else:
+            pass
+    print(f'{sentence}')
+    print(f'count: {d}')
