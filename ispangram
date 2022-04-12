@@ -1,0 +1,14 @@
+def ispangram(str1, alphabet=string.ascii_lowercase):
+    
+    # Create a set of alphabet
+    alphaset = set(alphabet)        
+    # Remove any spaces
+    str1 = str1.replace(' ','')  
+    #convert into all Lowercase
+    str1 = str1.lower()   
+    # Grab all unique letters from string set()
+    str1 = set(str1)
+    # alphabet set == string set input
+    return str1 == alphaset
+    
+    #ispangram("The quick brown fox jumps over the lazy dog")
