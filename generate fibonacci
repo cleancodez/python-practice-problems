@@ -1,0 +1,10 @@
+def fibo(n):
+    a, b = 0, 1 
+    output = []
+    
+    for i in range(n):
+        output.append(a)
+        a, b = b, a+b
+    return output
+    for number in fibo(1000):
+    print(number)
