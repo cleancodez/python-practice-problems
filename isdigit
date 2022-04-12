@@ -1,0 +1,8 @@
+def user_choice():
+    choice = 'No'
+    while choice.isdigit() == False:
+        choice = input('Enter a number (0-10): ')
+        
+        if choice.isdigit() == False:
+            print("Sorry that is not a number")
+    return int(choice)
