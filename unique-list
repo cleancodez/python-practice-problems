@@ -1,0 +1,6 @@
+def unique_list(lst):
+    x = []
+    for num in lst:
+        if num not in x:
+            x.append(num)
+    return x
